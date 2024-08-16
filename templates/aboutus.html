@@ -1,0 +1,37 @@
+{% load static %}
+
+  <body>
+    {% include "cabecera.html" %}
+<main>
+    <br>
+    <br>
+    <br>
+  <section class="testimonials text-center bg-light">
+    <div class="container">
+        <h2 class="mb-5">About us...</h2>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-4" src="{% static '/img/Daniel.Moya.jpeg' %}" alt="..." />
+                    <h5>Dani Moya.</h5>
+                    <p class="font-weight-light mb-0">"Python Developer | Data Analyst | Data Viz | PowerBI | SQL"</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-4" src="{% static '/img/Bryam.Osuna.jpeg' %}" alt="..." />
+                    <h5>Bryam Osuna.</h5>
+                    <p class="font-weight-light mb-0">"Ingeniero Industrial | Data Analyst | Data Viz | Power BI | SQL | Python"</p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+                    <img class="img-fluid rounded-circle mb-4" src="{% static '/img/Hernan.Moreno.jpeg' %}" alt="..." />
+                    <h5>Hernan Moreno.</h5>
+                    <p class="font-weight-light mb-0">"Corporate Project Manager | Product Owner Sr. | Industrial Engineer | People Handler | Agile"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</body>
